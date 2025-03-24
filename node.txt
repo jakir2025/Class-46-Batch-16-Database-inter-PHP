@@ -34,3 +34,16 @@ select * from students;
 select id, name from students;
 select * from students where id=4;
 select * from students where class = 'ten'
+
+like 
+
+update =>
+
+update students set Roll = 4 where id = 1;
+
+update students set name = "Mr.Karim", Roll = "12", class = "five", phone = "+8801767909324", email = "students@gmail.com", address = "Jamalgang, Sunamgang, Sylhet" where id = 2;
+
+delete =>
+
+delete from students where id = 2;
+delete from students where class = "ten";
