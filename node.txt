@@ -1,0 +1,36 @@
+
+
+mySQL, MongoDB, SQLite, PostgressSQL, Oracle
+
+mySQL => My structure Query Language
+
+=======School Management system=============
+
+1. students (data table) (id, name, Roll, class, phone, email, address);
+2. teachers (data table) (id, name, designation, phone, email, address);
+3. staffs (data table) (id, name, designation, phone, email, address);
+
+
+
+====================crud========================
+1. c = create
+2. r =read
+3. u = update
+4. d = delete
+
+
+=============SQL================
+
+create=>
+
+insert into students (name, Roll, class, phone, email, address) values ('Mr.rafique', '01', 'ten', '+8801324909', 'students@gmail.com', 'Jamalgang,Sunamgang);
+insert into teachers (name, designation, phone, email, address) values ('Abdul Karim', 'prenciple', '+8801324989', 'prenciple@gmail.com', 'Jamalgang,Sunamgang);
+insert into students (name, designation, phone, email, address) values ('Mr.Karim','Driver', '+8801324909', 'staffs@gmail.com', 'Jamalgang,Sunamgang);
+
+
+read =>
+
+select * from students;
+select id, name from students;
+select * from students where id=4;
+select * from students where class = 'ten'
